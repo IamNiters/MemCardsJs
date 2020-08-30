@@ -3,16 +3,43 @@
   padding: auto;
 }
 
-.HeroSection {
+/* NavBar */
+.MyNavbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  color: black;
+  background-color: yellow;
+  min-height: 100px;
 }
 
-.HeroForm {
+.MyHeroList {
   display: flex;
-  text-align: center;
-  flex-direction: column;
-  padding: 10px;
 }
+
+.MyHeroItem {
+  display: flex;
+  padding-right: 10px;
+}
+/* NavBar */
+
+/*Hero Section */
+
+.HeroSection {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.HeroLeftDb {
+  background-color: red;
+  min-width: 20vw;
+  max-width: 20vw;
+}
+
+.HeroRightDb {
+  background-color: green;
+  min-width: 80vw;
+  max-width: 80vw;
+}
+
+/*Hero Section */
